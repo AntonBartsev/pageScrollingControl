@@ -5,7 +5,6 @@ const menuTrigger = document.getElementsByClassName("MenuTriggerClassName")[0];
 // Get body element
 const bodyEl = document.getElementsByTagName("body")[0];
 
-
 // Set onclick function to menu element
 menuTrigger.onclick = () => {
     // Increase number of clicks value by 1 every time the menu element is clicked
