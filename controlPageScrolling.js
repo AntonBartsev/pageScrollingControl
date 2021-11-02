@@ -5,7 +5,6 @@ const trigger = document.getElementsByClassName("triggerClassName")[0];
 // Get body element
 const bodyEl = document.getElementsByTagName("body")[0];
 
-
 // Set onclick function to trigger element
 trigger.onclick = () => {
     numOfClicks += 1;
