@@ -1,7 +1,7 @@
 // Number of clicks on the trigger element initially set on 0
 let numOfClicks = 0;
 // Get trigger element 
-const trigger = document.getElementsByClassName("triggerClassName")[0];
+const trigger = document.getElementById("triggerId");
 // Get body element
 const bodyEl = document.getElementsByTagName("body")[0];
 
